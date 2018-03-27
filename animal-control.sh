@@ -1,5 +1,6 @@
 #!/bin/bash
 
+DEVICE=$(ls -1Ap /dev/cu.usbmodem* | head -1)
 VALID_CMDS=(C c M D d B)
 
 function print_help() {
@@ -19,10 +20,13 @@ if [[ ! " ${VALID_CMDS[@]} " =~ " ${CMD} " ]]; then
     exit 1
 fi
 
+if [ ! -z $DEVICE ] ; then
+    echo "Could not identify device"
+fi
 
 # stty -f /dev/cu.usbmodem1411 -hupcl
-stty -f /dev/cu.usbmodem1411 ispeed 9600 ospeed 9600 -ignpar cs8 -cstopb -echo
+stty -f "${DEVICE}" ispeed 9600 ospeed 9600 -ignpar cs8 -cstopb -echo
 
-echo "${CMD}" > /dev/cu.usbmodem1411
+echo "${CMD}" > "${DEVICE}"
 # echo -n $'\65' > /dev/cu.usbmodem1411
 # echo -en '\x41' > /dev/cu.usbmodem1411
