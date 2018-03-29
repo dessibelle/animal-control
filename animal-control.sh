@@ -20,8 +20,9 @@ if [[ ! " ${VALID_CMDS[@]} " =~ " ${CMD} " ]]; then
     exit 1
 fi
 
-if [ ! -z $DEVICE ] ; then
+if [ -z $DEVICE ] ; then
     echo "Could not identify device"
+    exit 1
 fi
 
 # stty -f /dev/cu.usbmodem1411 -hupcl
