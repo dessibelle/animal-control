@@ -1,0 +1,3 @@
+[submodule "AnimalControl/Frameworks/ORSSerialPort"]
+	path = AnimalControl/Frameworks/ORSSerialPort
+	url = https://github.com/armadsen/ORSSerialPort.git
