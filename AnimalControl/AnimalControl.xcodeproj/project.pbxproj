@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44FC73C207CA7E4005F1EC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44FC73B207CA7E4005F1EC1 /* AppDelegate.swift */; };
+		F44FC73E207CA7E4005F1EC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44FC73D207CA7E4005F1EC1 /* ViewController.swift */; };
+		F44FC740207CA7E6005F1EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44FC73F207CA7E6005F1EC1 /* Assets.xcassets */; };
+		F44FC743207CA7E6005F1EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44FC741207CA7E6005F1EC1 /* Main.storyboard */; };
+		F44FC74F207CA7E6005F1EC1 /* AnimalControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44FC74E207CA7E6005F1EC1 /* AnimalControlTests.swift */; };
+		F44FC75A207CA7E6005F1EC1 /* AnimalControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44FC759207CA7E6005F1EC1 /* AnimalControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F44FC74B207CA7E6005F1EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44FC730207CA7E4005F1EC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44FC737207CA7E4005F1EC1;
+			remoteInfo = AnimalControl;
+		};
+		F44FC756207CA7E6005F1EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44FC730207CA7E4005F1EC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44FC737207CA7E4005F1EC1;
+			remoteInfo = AnimalControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F44FC738207CA7E4005F1EC1 /* AnimalControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44FC73B207CA7E4005F1EC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F44FC73D207CA7E4005F1EC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F44FC73F207CA7E6005F1EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44FC742207CA7E6005F1EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F44FC744207CA7E6005F1EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44FC745207CA7E6005F1EC1 /* AnimalControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnimalControl.entitlements; sourceTree = "<group>"; };
+		F44FC74A207CA7E6005F1EC1 /* AnimalControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44FC74E207CA7E6005F1EC1 /* AnimalControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalControlTests.swift; sourceTree = "<group>"; };
+		F44FC750207CA7E6005F1EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44FC755207CA7E6005F1EC1 /* AnimalControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44FC759207CA7E6005F1EC1 /* AnimalControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalControlUITests.swift; sourceTree = "<group>"; };
+		F44FC75B207CA7E6005F1EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44FC735207CA7E4005F1EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44FC747207CA7E6005F1EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44FC752207CA7E6005F1EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F44FC72F207CA7E4005F1EC1 = {
+			isa = PBXGroup;
+			children = (
+				F44FC73A207CA7E4005F1EC1 /* AnimalControl */,
+				F44FC74D207CA7E6005F1EC1 /* AnimalControlTests */,
+				F44FC758207CA7E6005F1EC1 /* AnimalControlUITests */,
+				F44FC739207CA7E4005F1EC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44FC739207CA7E4005F1EC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44FC738207CA7E4005F1EC1 /* AnimalControl.app */,
+				F44FC74A207CA7E6005F1EC1 /* AnimalControlTests.xctest */,
+				F44FC755207CA7E6005F1EC1 /* AnimalControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44FC73A207CA7E4005F1EC1 /* AnimalControl */ = {
+			isa = PBXGroup;
+			children = (
+				F44FC73B207CA7E4005F1EC1 /* AppDelegate.swift */,
+				F44FC73D207CA7E4005F1EC1 /* ViewController.swift */,
+				F44FC73F207CA7E6005F1EC1 /* Assets.xcassets */,
+				F44FC741207CA7E6005F1EC1 /* Main.storyboard */,
+				F44FC744207CA7E6005F1EC1 /* Info.plist */,
+				F44FC745207CA7E6005F1EC1 /* AnimalControl.entitlements */,
+			);
+			path = AnimalControl;
+			sourceTree = "<group>";
+		};
+		F44FC74D207CA7E6005F1EC1 /* AnimalControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				F44FC74E207CA7E6005F1EC1 /* AnimalControlTests.swift */,
+				F44FC750207CA7E6005F1EC1 /* Info.plist */,
+			);
+			path = AnimalControlTests;
+			sourceTree = "<group>";
+		};
+		F44FC758207CA7E6005F1EC1 /* AnimalControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F44FC759207CA7E6005F1EC1 /* AnimalControlUITests.swift */,
+				F44FC75B207CA7E6005F1EC1 /* Info.plist */,
+			);
+			path = AnimalControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44FC737207CA7E4005F1EC1 /* AnimalControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44FC75E207CA7E6005F1EC1 /* Build configuration list for PBXNativeTarget "AnimalControl" */;
+			buildPhases = (
+				F44FC734207CA7E4005F1EC1 /* Sources */,
+				F44FC735207CA7E4005F1EC1 /* Frameworks */,
+				F44FC736207CA7E4005F1EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalControl;
+			productName = AnimalControl;
+			productReference = F44FC738207CA7E4005F1EC1 /* AnimalControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44FC749207CA7E6005F1EC1 /* AnimalControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44FC761207CA7E6005F1EC1 /* Build configuration list for PBXNativeTarget "AnimalControlTests" */;
+			buildPhases = (
+				F44FC746207CA7E6005F1EC1 /* Sources */,
+				F44FC747207CA7E6005F1EC1 /* Frameworks */,
+				F44FC748207CA7E6005F1EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44FC74C207CA7E6005F1EC1 /* PBXTargetDependency */,
+			);
+			name = AnimalControlTests;
+			productName = AnimalControlTests;
+			productReference = F44FC74A207CA7E6005F1EC1 /* AnimalControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F44FC754207CA7E6005F1EC1 /* AnimalControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44FC764207CA7E6005F1EC1 /* Build configuration list for PBXNativeTarget "AnimalControlUITests" */;
+			buildPhases = (
+				F44FC751207CA7E6005F1EC1 /* Sources */,
+				F44FC752207CA7E6005F1EC1 /* Frameworks */,
+				F44FC753207CA7E6005F1EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44FC757207CA7E6005F1EC1 /* PBXTargetDependency */,
+			);
+			name = AnimalControlUITests;
+			productName = AnimalControlUITests;
+			productReference = F44FC755207CA7E6005F1EC1 /* AnimalControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44FC730207CA7E4005F1EC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Simon Fransson";
+				TargetAttributes = {
+					F44FC737207CA7E4005F1EC1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F44FC749207CA7E6005F1EC1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F44FC737207CA7E4005F1EC1;
+					};
+					F44FC754207CA7E6005F1EC1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F44FC737207CA7E4005F1EC1;
+					};
+				};
+			};
+			buildConfigurationList = F44FC733207CA7E4005F1EC1 /* Build configuration list for PBXProject "AnimalControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F44FC72F207CA7E4005F1EC1;
+			productRefGroup = F44FC739207CA7E4005F1EC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44FC737207CA7E4005F1EC1 /* AnimalControl */,
+				F44FC749207CA7E6005F1EC1 /* AnimalControlTests */,
+				F44FC754207CA7E6005F1EC1 /* AnimalControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44FC736207CA7E4005F1EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44FC740207CA7E6005F1EC1 /* Assets.xcassets in Resources */,
+				F44FC743207CA7E6005F1EC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44FC748207CA7E6005F1EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44FC753207CA7E6005F1EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44FC734207CA7E4005F1EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44FC73E207CA7E4005F1EC1 /* ViewController.swift in Sources */,
+				F44FC73C207CA7E4005F1EC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44FC746207CA7E6005F1EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44FC74F207CA7E6005F1EC1 /* AnimalControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44FC751207CA7E6005F1EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44FC75A207CA7E6005F1EC1 /* AnimalControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F44FC74C207CA7E6005F1EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44FC737207CA7E4005F1EC1 /* AnimalControl */;
+			targetProxy = F44FC74B207CA7E6005F1EC1 /* PBXContainerItemProxy */;
+		};
+		F44FC757207CA7E6005F1EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44FC737207CA7E4005F1EC1 /* AnimalControl */;
+			targetProxy = F44FC756207CA7E6005F1EC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F44FC741207CA7E6005F1EC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44FC742207CA7E6005F1EC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44FC75C207CA7E6005F1EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F44FC75D207CA7E6005F1EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F44FC75F207CA7E6005F1EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AnimalControl/AnimalControl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnimalControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.dessibelle.AnimalControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F44FC760207CA7E6005F1EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AnimalControl/AnimalControl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnimalControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.dessibelle.AnimalControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		F44FC762207CA7E6005F1EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnimalControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.dessibelle.AnimalControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalControl.app/Contents/MacOS/AnimalControl";
+			};
+			name = Debug;
+		};
+		F44FC763207CA7E6005F1EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnimalControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.dessibelle.AnimalControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalControl.app/Contents/MacOS/AnimalControl";
+			};
+			name = Release;
+		};
+		F44FC765207CA7E6005F1EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnimalControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.dessibelle.AnimalControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = AnimalControl;
+			};
+			name = Debug;
+		};
+		F44FC766207CA7E6005F1EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnimalControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.dessibelle.AnimalControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = AnimalControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44FC733207CA7E4005F1EC1 /* Build configuration list for PBXProject "AnimalControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44FC75C207CA7E6005F1EC1 /* Debug */,
+				F44FC75D207CA7E6005F1EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44FC75E207CA7E6005F1EC1 /* Build configuration list for PBXNativeTarget "AnimalControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44FC75F207CA7E6005F1EC1 /* Debug */,
+				F44FC760207CA7E6005F1EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44FC761207CA7E6005F1EC1 /* Build configuration list for PBXNativeTarget "AnimalControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44FC762207CA7E6005F1EC1 /* Debug */,
+				F44FC763207CA7E6005F1EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44FC764207CA7E6005F1EC1 /* Build configuration list for PBXNativeTarget "AnimalControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44FC765207CA7E6005F1EC1 /* Debug */,
+				F44FC766207CA7E6005F1EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44FC730207CA7E4005F1EC1 /* Project object */;
+}
